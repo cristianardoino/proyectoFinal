@@ -5,6 +5,6 @@ if (edadIngresada >= 18) {
   } 
   
   else {
-    (alert("puedes ingresar bajo su propia responsabilidad"));
+    (alert("el ingreso es  bajo su propia responsabilidad"));
   } 
   
