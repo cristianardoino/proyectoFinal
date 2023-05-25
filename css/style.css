@@ -15,8 +15,9 @@ body {
 }
 /* === estilos del header ===*/
 header {
-    background: url(../img/aceitedefondo.jpg)no-repeat  fixed center center ;
-    background-size:cover ;
+    background: rgb(246, 250, 250)  ;
+    
+    
     display: flex;
     justify-content: center;
     gap: 3rem;
@@ -30,7 +31,7 @@ h1 {
 /* === estilos del header ===*/
 
 .carousel-inner {
-    width: 500px;
+    width: 400px;
 }
 
 
