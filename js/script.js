@@ -1,10 +1,10 @@
-let edadIngresada = Number(prompt("por favor ingresar edad"));
+//let edadIngresada = Number(prompt("por favor ingresar edad"));
 
-if (edadIngresada >= 18) {
-   (alert("puedes ingresar .Bienvenido"));
+//if (edadIngresada >= 18) {
+   (alert("Puedes ingresar .Bienvenido"));
   } 
   
   else {
-    (alert("el ingreso es  bajo su propia responsabilidad"));
+    (alert("El ingreso es  bajo su propia responsabilidad"));
   } 
   
