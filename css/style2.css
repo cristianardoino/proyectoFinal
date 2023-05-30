@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  background-image: url(../img/imagen3.jpeg);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+h1 {
+  color: antiquewhite;
+}
