@@ -89,6 +89,9 @@ li {
 p {
   background-color: #607bf1;
 }
+pag2 {
+  background-image: url(../img/elaionf30.jpg);
+}
 
 footer {
   display: flex;
