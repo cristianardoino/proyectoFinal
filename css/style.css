@@ -10,20 +10,21 @@ body {
   flex-direction: column;
   min-height: 100vh;
 }
-.mt3 {
-  margin-top: 1rem;
+
+.shadow {
+  box-shadow: #0e0e0e;
 }
 /* === estilos del header ===*/
 header {
   width: 100%;
-  background-color: rgb(241, 236, 236);
+  background-color: rgb(0, 0, 0);
 }
 .header {
   width: 100%;
   margin: 0 auto;
   background-image: url("../img/aceite.jpg");
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
 
   background-position: center;
 
@@ -36,10 +37,27 @@ header {
 img {
   width: 120px;
 }
+.fondo {
+  background-image: url("../img/imagen3.jpeg");
+  background-repeat: no-repeat;
+ background-size: cover;
+
+}
 h1 {
   color: rgba(248, 20, 20, 0.993);
   font-size: 70px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+ .contenedor {
+  
+  color: rgb(247, 2, 2);
+  display: grid;
+  place-items: center;
+ 
+}
+.opaciti {
+  background: rgba(0, 0, 0, 0.5);
+  color: aqua;
 }
 /* === estilos del header ===*/
 /* === estilos del nav ===*/
@@ -89,8 +107,30 @@ li {
 p {
   background-color: #607bf1;
 }
-pag2 {
+.pag2 {
   background-image: url(../img/elaionf30.jpg);
+}
+
+.btn-wsp {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 30px;
+  right: 30px;
+  background: #297750;
+  color: rgb(245, 252, 252);
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px; rgba(0,0,0,0.3)
+  z-index: 100;
+}
+
+.btn-wsp:hover {
+  text-decoration: none;
+  color: #19f140;
+  background: #f6f7f6;
 }
 
 footer {
