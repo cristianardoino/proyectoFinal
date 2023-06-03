@@ -132,7 +132,19 @@ p {
   color: #19f140;
   background: #f6f7f6;
 }
+/* video */
 
+.video-box {
+ 
+  width: 100%;
+  max-width: 720px;
+  height: auto;
+  margin: 100px auto 0;
+}
+.video  video {
+  width: 100%;
+  height: auto;
+}
 footer {
   display: flex;
   background-color: #5ed0ed;

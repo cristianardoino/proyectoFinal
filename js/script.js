@@ -5,3 +5,7 @@ if (edadIngresada >= 18) {
 } else {
   alert("El ingreso es  bajo su propia responsabilidad");
 }
+
+window.onbeforeunload = function () {
+  return "Estás saliendo del curso";
+};
