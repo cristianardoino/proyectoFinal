@@ -7,14 +7,18 @@
 }
 
 body {
-  background-color: #d9e949;
+  background-color: #ee0707;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
 .shadow {
-  box-shadow: #0e0e0e;
+   border-radius: 5px;
+  color: rgb(7, 7, 7);
+  margin: 15px 15px 15px 15px;
+  box-shadow: 0px 1px 10px; rgba(0,0,0,0.3)
+}
 }
 /* === estilos del header ===*/
 header {
@@ -146,7 +150,7 @@ section{
         top: 80px;
         left: -100%;
         text-align: center;
-        transition: all .5s;
+        transition: all 1s;
     }
     nav ul li{
         display: block;
@@ -173,12 +177,14 @@ section{
   justify-content: center;
   align-items: center;
 }
+
+
+ 
 p {
   background-color: #607bf1;
+   box-shadow: 0px 1px 10px;
 }
-.pag2 {
-  background-image: url(../img/elaionf30.jpg);
-}
+
 
 .btn-wsp {
   position: fixed;
